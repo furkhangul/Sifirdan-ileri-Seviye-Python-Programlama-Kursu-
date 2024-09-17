@@ -26,6 +26,7 @@ print(type(name))
 print(type(isOneline))
 
 """
+
 PEKİ YUKARIDA YAPTIĞIMIZ GİBİ STRİNG DEĞERİNDEKİ Bİ DEĞİŞKENİ BAŞKA BİR DEĞİŞKENE DE ÇEVİREBİLİR MİYİZ 
 Tabiki evet, bu örnekte floata çevirmeyi denedim
 """

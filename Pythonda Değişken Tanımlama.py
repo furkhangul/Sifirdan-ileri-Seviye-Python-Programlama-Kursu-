@@ -1,7 +1,9 @@
 #Bir kullanıcının maaş bilgisini hesaplamak için uygulama yapacağız.
 #Örneğin 5000TL maaş alan bi kullanıcının maaşı ile orantılı olarak ödediği vergiler ile brüt maaşını hesaplama 
 #Vergi Oranı 0.27 olursa:
+
 print(5000-(5000 * (2.7/100)))
+
 #Veya
 
 maasAli = 5000

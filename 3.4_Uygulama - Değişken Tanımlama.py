@@ -11,6 +11,7 @@
 # müşteri yaşı 
 #----------------------------------------------------------------------------------------------
 
+
 CustomerName = "Furkan"
 CustomerSurname = "Gül"
 Customer = CustomerName + " " + CustomerSurname

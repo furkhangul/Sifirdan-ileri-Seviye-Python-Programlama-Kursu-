@@ -14,6 +14,7 @@ print(reading[2])
 Burada yapmak istediğim oluşan yeni cümledeki 2.karakterin ne olduğunu belirlemekti. 
 Bu sayede istediğim keliemyi cümleden çekebilme yeteneğine sahip olyorum.
 """
+
 print(reading[7])
 
 print(len(reading))

@@ -29,6 +29,7 @@ print(type(isOneline))
 PEKİ YUKARIDA YAPTIĞIMIZ GİBİ STRİNG DEĞERİNDEKİ Bİ DEĞİŞKENİ BAŞKA BİR DEĞİŞKENE DE ÇEVİREBİLİR MİYİZ 
 Tabiki evet, bu örnekte floata çevirmeyi denedim
 """
+
 x = float(x)
 print(x)
 print(type(x)) #Sonuc => 5.0 --type:float

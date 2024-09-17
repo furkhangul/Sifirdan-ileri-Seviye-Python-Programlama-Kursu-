@@ -1,5 +1,6 @@
 #Bu derste string üzerine çalıştım
 
+
 Name = "Furkan" 
 Surname = "Gül"
 Age = 20

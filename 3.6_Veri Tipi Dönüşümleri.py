@@ -7,6 +7,7 @@ Daire Çevresi : pi * r * 2
 *Yarıçapı verilen dairenin alanını ve çevresini bulunuz: 
 '''
 
+
 yaricap = input("Yarı çap: ")
 yaricap = float(yaricap)
 pi = 3.14

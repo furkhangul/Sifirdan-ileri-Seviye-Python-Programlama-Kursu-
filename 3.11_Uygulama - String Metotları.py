@@ -71,6 +71,7 @@ result = 'contents'.rjust(25,'*')
 """
 9.örneği replace kodu ile yer değiştirerek kullanacağız.
 """
+
 result = course.replace(" ", "-")
 
 """

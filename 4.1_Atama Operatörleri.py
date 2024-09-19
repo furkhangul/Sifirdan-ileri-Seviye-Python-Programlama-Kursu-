@@ -23,4 +23,3 @@ x = x ** 5 ifadesi yerine
 x **=5 ifadesini kullanmak partiklik açısından bizim için daha faydalıdır.
 """
 
-

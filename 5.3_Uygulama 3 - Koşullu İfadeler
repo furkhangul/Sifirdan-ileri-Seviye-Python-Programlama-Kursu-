@@ -26,3 +26,4 @@ tarfigeCikis = datetime.time
 simdi = datetime.datetime.now()
 fark =(tarih - simdi)
 print(fark)
+

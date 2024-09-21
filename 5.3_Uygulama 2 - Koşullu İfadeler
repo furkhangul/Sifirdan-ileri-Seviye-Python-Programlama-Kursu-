@@ -1,0 +1,29 @@
+"""
+Bu derste if else elif blokları ile bize verilmiş örnekleri çözdüm.
+"""
+
+#---------------------------------------
+# 2-Bir öğrencinin 2 yazılı ve bir sözlü notunu alıp hesaplamayı ve
+# ortalamasını kullanarak harf notunu bulmayı yarıyan kod.
+#---------------------------------------
+
+not1 = int(input("1.NOT:"))
+not2 = int(input("2.NOT:"))
+sozlu = int(input("Sozlu:"))
+
+ortalama = (not1+not2+sozlu) / 3
+
+if ortalama<=100 and ortalama>=85:
+    print("Harf notunuz: A")
+elif ortalama<85 and ortalama>=70:
+    print("Harf notunuz: B")
+elif ortalama<70 and ortalama>=55:
+    print("Harf notunuz: C")
+elif ortalama<55 and ortalama>=45:
+    print("Harf notunuz: D")
+elif ortalama<45 and ortalama>=25:
+    print("Harf notunuz: E")
+elif ortalama<25 and ortalama>=0:
+    print("Harf notunuz: F")
+else:
+    print("Lütfen geçerli bi not ortalaması giriniz !")

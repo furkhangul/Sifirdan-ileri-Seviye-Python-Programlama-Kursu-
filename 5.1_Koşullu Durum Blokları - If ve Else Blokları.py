@@ -20,3 +20,16 @@ if (username=="Furkan") and (password == 123456):
     print("Succses Login")
 else:
     print("Wrong !")
+
+
+#-------------------------------------------------
+username1 = input("Username:")
+password1 = int(input("Password:"))
+
+if (username1=="Furkan"):
+  if(password1 == 123456):
+      print("Succses Login")
+  else:
+      print("Wrong Password")
+else:
+    print("Wrong  Username!")

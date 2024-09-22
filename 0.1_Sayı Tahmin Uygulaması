@@ -1,0 +1,39 @@
+import random
+
+"""
+Bu bölümde bir sayı tahmin uygulaması yapmak olacak.
+"""
+
+"""
+Oyunda 1 ile 100 arasında üretilecek bir sayıyı aşağı yukarı şeklinde 
+bulmaya çalışacağız."""
+
+"""
+***random modülü için  python random şeklinde arama yapın
+** 100 üzerinden puanlama yapın her soru 20 puan 
+** hak bilgisini kullanıcıdan alın ve her soruda belirtilen can sayısını 
+hesaplayın.
+"""
+sayac = 1
+randomsayi = random.randint(1,100)
+can = 5
+while True:
+    sayi = int(input("Lütfen 1 ile 100 arasında bir sayı giriniz:"))
+    if can>0:
+        if randomsayi == sayi:
+            sayac += 1
+            print(f"Aradığınız sayıyı {sayac}. denemenizde buldunuz.")
+            break
+        elif randomsayi > sayi:
+            print("Aradığınız sayı daha büyük bir değer !")
+            can  -= 1
+            print(f"Kalan canınız : {can}")
+            continue
+        elif randomsayi < sayi:
+            print("Aradığınız sayı daha küçük bir değer !")
+            can -= 1
+            print(f"Kalan canınız : {can}")
+            continue
+    else:
+        print("Oyuna devam edebilecek canınız kalmadı lütfen tekrar oyuna başlayınız !")
+        break

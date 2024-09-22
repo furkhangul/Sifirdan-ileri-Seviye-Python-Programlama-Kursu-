@@ -1,4 +1,4 @@
-import random
+from random import random
 
 """
 Bu bölümde bir sayı tahmin uygulaması yapmak olacak.

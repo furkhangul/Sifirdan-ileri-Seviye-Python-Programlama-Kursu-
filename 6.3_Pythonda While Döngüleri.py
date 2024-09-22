@@ -20,6 +20,7 @@ Veya
 koşul ifadeleri ile de kurabiliriz.
 """
 
+
 a = 1
 while a<=100:
     if (a % 2 == 0):

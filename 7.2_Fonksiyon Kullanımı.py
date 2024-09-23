@@ -26,5 +26,4 @@ def emeklilikhesaplama(yas):
         print(f"emeliliğinize {emeklilik} yıl kaldı.")
     else:
         print("Zaten emeklisiniz.")
-
 emeklilikhesaplama()

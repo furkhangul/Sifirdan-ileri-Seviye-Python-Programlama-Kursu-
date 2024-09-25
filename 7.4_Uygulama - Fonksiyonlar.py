@@ -2,6 +2,7 @@
 Bu derste ise fonkisyonlar ile alakalı örnekler çözeceğim
 """
 
+
 """
 1- Gönderilen bir kelimeyi belirtilen kez ekranda gösteren fonksiyonu yazınız
 """

@@ -1,7 +1,6 @@
 #Bu derste object orianted programming yani nesne tabalı programlama üzerine
 #çalıştım. bunun için ilk olarak class ifadelerine bakacak olursak:
 
-
 #class
 lst = [1,2,3]
 lst2 =[1,2,3,4]

@@ -20,7 +20,6 @@ ifadeler tek yerde kullanılığı için hata verecektir.
 """
 docs.python.org sitesi ile hataların olabailecek hata çözümlemelirini
 görebiliriz.
-
 diğer çeşitlerini öğrnemek için bu siteye gitmem lazım 
 """
 

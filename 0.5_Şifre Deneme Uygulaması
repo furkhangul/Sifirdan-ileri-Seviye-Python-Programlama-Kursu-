@@ -1,6 +1,5 @@
 from idlelib.run import Executive
 
-
 def check_password(psw):
     import re
     if len(psw) < 8 :

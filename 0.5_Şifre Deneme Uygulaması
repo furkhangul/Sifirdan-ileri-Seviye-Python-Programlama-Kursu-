@@ -17,6 +17,7 @@ def check_password(psw):
 
 password = "123456789aA"
 
+
 try:
     check_password(password)
 except Exception as ex:

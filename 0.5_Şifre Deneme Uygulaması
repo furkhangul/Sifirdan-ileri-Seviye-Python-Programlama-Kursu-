@@ -1,0 +1,24 @@
+from idlelib.run import Executive
+
+
+def check_password(psw):
+    import re
+    if len(psw) < 8 :
+        raise Exception("Parola en az 7 karakter olmalıdır.")
+    elif not re.search("[A-Z]",psw):
+        raise("Büyük harf içermelidir.")
+    elif not re.search("[a-z]",psw):
+        raise("Küçük harf içermelidir.")
+    elif not re.search("[0-9]",psw):
+        raise("Numara içermelidir.")
+    elif  re.search("[_@$]",psw):
+        raise("Alpha numeric karakter içermelidir.")
+    elif re.search("/s",psw):
+        raise("boşuk içermemelidir")
+
+password = "123456789aA"
+
+try:
+    check_password(password)
+except Exception as ex:
+    print(ex)

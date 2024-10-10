@@ -11,7 +11,6 @@ for x in liste:
         print(result)
     except ValueError:
         continue
-
 """
 Kullanıcıdan "q" değerini girmedikçe aldığınız her input sayısının 
 olduğundan emin olunuz aksi halde hata mesajı alınız:

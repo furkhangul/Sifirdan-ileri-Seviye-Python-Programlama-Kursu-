@@ -4,7 +4,6 @@ fonkisyonlar da bi obje olduğunu öğrenerek başlıyoruz.
 """
 from contextlib import nullcontext
 
-
 def greeting(name):
     print("Hello "+name )
 

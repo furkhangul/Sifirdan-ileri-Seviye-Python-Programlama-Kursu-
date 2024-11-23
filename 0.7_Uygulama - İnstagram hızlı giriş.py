@@ -1,3 +1,7 @@
+"""
+Bu derste ise instagrama hızlı giriş yapıpı bu giriş üzerinden veri çekebilen bir programın kodlanmasını yaptım.
+"""
+
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 import time

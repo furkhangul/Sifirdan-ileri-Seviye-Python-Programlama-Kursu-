@@ -25,5 +25,4 @@ time.sleep(3)
 followers = driver.find_element(By.CLASS_NAME, "x5n08af x1s688f x1lliihq")
 followers.click()
 time.sleep(10)
-
 driver.close()

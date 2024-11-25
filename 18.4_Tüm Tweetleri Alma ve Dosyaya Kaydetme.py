@@ -1,11 +1,5 @@
 """
-Bu bölümde twitter giriş bölümünü kodladım. koddaki xpath uzantıları değişebilir. bunun değiştirilmesi için ChoPath chrome
-eklentisini kullanıyorum.
-Giriş bölümü daha hızlı olabilir.
-"""
-"""
-Bu bölümde ise giriş yapıldıktan sonra hesabımız üzerinden search methodunu kullanmak. Keys.Enter tuşu için Keys kütüphanesini
-import ettim.
+BU KODDA İSE AŞŞAĞIYA DOĞRU İNİLEN KODDA TWİTLERİ KAYIT ETMEKTE.
 """
 
 from selenium.webdriver.common.by import By
